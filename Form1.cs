@@ -6,5 +6,23 @@ namespace day1project
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string data = Username.Text;
+
+            for(int i= 0; i<3; i++) 
+            {
+                
+                MessageBox.Show("Your name is " + data+ i);
+                // MessageBox.Show("Error Mesaage");
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
